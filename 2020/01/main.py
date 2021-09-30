@@ -22,3 +22,4 @@ for value in input:
         for value3 in input:
             if (int(value) + int(value2) + int(value3) == target):
                 print(int(value) * int(value2) * int(value3))
+                exit
